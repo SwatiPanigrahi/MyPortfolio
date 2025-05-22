@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Swati</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header/Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Swati<span>Panigrahi</span></h1>
+      <nav>
+    <ul class="nav-links">
+    <li class="dropdown">
+      <button onclick="toggleDropdown()" class="dropbtn">Menu
+      </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#index">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+        <!--<ul class="nav-links">
+          <li><a href="#index" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>-->
+    </div>
+  </header>
+
+   <!-- Hero Section -->
+  <header id="index" class="hero">
+    <div class="container">
+      <h1>Hi, I'm <span style="color:darkblue">Swatisnigdha Panigrahi</span></h1>
+      <p>Web Developer | Aspiring DevOps Engineer</p>
+      <a href="SWATISNIGDHA PANIGRAHI.pdf" onclick="downloadResume()" class="btn-primary">Download CV</a>
+      <a href="https://github.com/SwatiPanigrahi" class="btn-primary" target="_blank" rel="noopener">Visit GitHub</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section container">
+    <h2>About Me</h2>
+    <div class="about-content">
+      <img src="img/myphoto.jpg" alt="Image" class="about-img" />
+      <div class="about-text">
+        <p>Hello! I’m Swatisnigdha Panigrahi, a passionate Web Developer with a strong foundation in Software Development. 
+          I am graduated in MCA from Trident Academy Of Creative Technology, Bhubaneswar. Skilled in applying theoretical knowledge 
+          to practical problems with an expertise in Python, SQL, Front-end and other technologies as well. Delving into the area 
+          DevOps and AWS services.</p><br>
+          <p><b>Technical Skills: </b></p>
+          <p><b>Languages: </b>Python (numpy, tkinter)</p>
+          <p><b>Database: </b>SQL/MySQL (Queries, Subqueries, Joins, Window Functions)</p>
+          <p><b>AWS Services: </b> Amazon Athena, Amazon QuickSight</p>
+          <p><b>Front-end: </b>HTML, CSS, JavaScript, Responsive Design</p>
+          <p><b>Platform: </b>VS Code, PyCharm</p>
+          <p><b>Version Control:</b> Git, GitHub</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h2>My Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>Reponsive, user-friendly websites using modern technologies like HTML, CSS, JavaScript and frameworks. I focus on clean code to ensure great user experiences.</p> 
+        <br>
+        <p><b>Skills:</b> HTML, CSS, JavaScript</p>
+        <p><b>Tools:</b> VS Code, Git, GitHub</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Engineering</h3>
+        <p>I implement basic DevOps practices to streamline development and deployment workflows. I also work with AWS services to build cloud-based solutions.</p>
+        <br>
+        <p><b>Skills:</b> Amazon Athena, Amazon QuickSight</p>
+        <p><b>Tools:</b> Git, GitHub</p>
+      </div>
+  </section>
+   <!-- Projects Section -->
+  <section id="projects" class="project-container">
+    <h2>My Projects</h2>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="img/p1.jpg" alt="img" />
+        <h3>Graphical Password Authentication System</h3>
+        <p><b>Skills: Python(Tkinter), MySQL, XAMPP</b></p>
+      </div>
+      <div class="team-member">
+        <img src="img/p2.jpg" alt="img" />
+        <h3>Online Food Ordering Website - FoodyMood</h3>
+        <p><b>Skills: HTML, CSS, JavaScript, MySQL</b></p>
+      </div>
+      <div class="team-member">
+        <img src="img/p3.jpg" alt="img" />
+        <h3>Body Mass Index - BMI Calculator</h3>
+        <p><b>Skills:  HTML, CSS, JavaScript</b></p>
+      </div>
+  </section>
+  <!-- Intern Section -->
+  <section id="experience" class="services">
+    <h2>Internships</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>Python Programming Intern</h3>
+        <p><b>Python, Tkinter</b></p>
+        <p>May 2024 - June 2024</p>
+        <p>CodSoft</p>
+        <p>Kolkata, West Bengal (Remote)</p>
+      </div>
+      <div class="card">
+        <h3>Web Development Intern</h3>
+        <p><b>HTML, CSS, JavaScript</b></p>
+        <p>June 2024 - July 2024</p>
+        <p>InternPe</p>
+        <p>Jaipur, Rajasthan (Remote)</p>
+      </div>
+  </section>
+  <!-- Certificate Section -->
+  <section id="projects" class="cert">
+    <h2>Certifications</h2>
+    <div class="cert-cards">
+      <div class="card">
+        <h3>Python Industrial Oriented Training Certificate</h3>
+        <p><b>TACT</b></p>
+        <p>Issued December 2024</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Computing and Distributed Systems</h3>
+        <p><b>NPTEL</b></p>
+        <p>Issued April 2024</p>
+      </div>
+  </section>
+<!-- Edu Section -->
+  <section id="projects" class="edu">
+    <h2>Educational Qualifications</h2>
+    <div class="edu-cards">
+      <div class="card">
+        <h3>MCA</h3>
+        <p><b>Trident Academy of Creative Technology, Bhubaneswar</b></p>
+        <p>BPUT, Rourkela</p>
+        <p>Grade: 8.9 CGPA</p>
+        <p>2023 - 2025</p>
+      </div>
+      <div class="card">
+        <h3>B.Sc.</h3>
+        <p><b>Sushilavati Government Women's College, Rourkela</b></p>
+        <p>Sambalpur University, Sambalpur</p>
+        <p>Grade: 7.8 CGPA</p>
+        <p>2020 - 2023</p>
+      </div>
+      <div class="card">
+        <h3>Intermediate</h3>
+        <p><b>Chinmaya Vidyalaya English Medium School, Rourkela</b></p>
+        <p>ISC</p>
+        <p>Grade: First Class</p>
+        <p>2018 - 2020</p>
+      </div>
+      <div class="card">
+        <h3>Matriculation</h3>
+        <p><b>Pragati Public School, Rourkela</b></p>
+        <p>ICSE</p>
+        <p>Grade: First Class</p>
+        <p>2018</p>
+      </div>
+  </section>
+   <!-- Contact Section -->
+  <section id="contact" class="contact container">
+  <h2>Get in Touch</h2>
+    <div class="social-icons">
+      <a href="mailto:panigrahiswatisnigdha@gmail.com"><img src="img/gmail.jpg" alt="Email"/></a>
+      <a href="https://www.facebook.com/profile.php?id=61555001709782"><img src="img/facebook.jpg" alt="Facebook" /></a>
+      <a href="https://www.instagram.com/_snigdha_shines_?igsh=YWsxMG5mOHdscmdh"><img src="img/instagram.jpg" alt="Instagram" /></a>
+      <a href="#"><img src="img/linkedin1.jpg" alt="LinkedIn" /></a>
+    </div> 
+    <a href="tel:+917008846708" class="btn1-primary">Contact Me</a>
+</section>
+  <footer class="footer">
+    <p>Copyright © 2025 <a href="mailto:panigrahiswatisnigdha@gmail.com" style="color: aquamarine; text-decoration: none;">Swatisnigdha Panigrahi.</a> All rights reserved.</p>
+  </footer>
+
+  <style>
+  .show {
+    display: block;
+  }
+</style>
+  <script>
+    // Download Resume Function
+          function downloadResume() {
+    alert('Downloading resume...');
+    window.location.href = 'SWATISNIGDHA PANIGRAHI.pdf'; 
+}
+function toggleDropdown() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if clicked outside
+  window.onclick = function(e) {
+    if (!e.target.matches('.dropbtn')) {
+      const dropdowns = document.getElementsByClassName("dropdown-content");
+      for (let i = 0; i < dropdowns.length; i++) {
+        if (dropdowns[i].classList.contains('show')) {
+          dropdowns[i].classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+</body>
+</html>
